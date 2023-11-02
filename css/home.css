@@ -1,0 +1,51 @@
+.content-box {
+    background-color: #DEE2E6;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+    height: 0;
+    padding-bottom: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.content-box {
+    background-color: #DEE2E6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.image-container {
+    width: 100%; 
+    padding-top: 100%; 
+    position: relative;
+}
+
+.box-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text-container {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    /* Adjust the below value based on your text's height */
+    height: 20%; /* This reserves space at the bottom for the text */
+}
+
+.content-box-text{
+    font-family: fantasy;
+    font-size: large;
+}
+

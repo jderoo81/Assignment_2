@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacobs Portfolio</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Index.css">
+    <link rel="stylesheet" href="css/Gallery.css">
+</head>
+<body>
+       <!--nav bar-->
+       <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--gallery content-->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">My Work Gallery</h2>
+        <div class="row">
+            
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/UX_img.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">UI/UX Work</h5>
+                        <p class="card-text">The picture above shows and example of some UX/UI work I did for a small buisness in my home town.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <!-- Note that you may want to host your video files or use a service like YouTube or Vimeo -->
+                    <video class="card-img-top" controls>
+                        <source src="Videos/vid_of_Game.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">Unity Game Development</h5>
+                        <p class="card-text">This video shows a game I developed with two other group memebers for our capstone project.</p>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Image Card Example -->
+             <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="images/image_of_blender_room.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Blender 3D annimations</h5>
+                        <p class="card-text">The picture above shows a scene I created in Blender displaying my work in 3D annimations</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat the above blocks for each piece of work you want to showcase. -->
+        </div>
+    </div>
+
+
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
