@@ -33,27 +33,31 @@ html, body {
 }
 
 
-/* Center the navbar content */
 .navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Center the brand or logo horizontally */
+
 .navbar-brand {
     margin-right: auto;
 }
 
-/* Adjust the spacing between menu items */
+
 .navbar-nav {
     margin: 0 auto;
 }
 
-/* Center the menu items horizontally */
+
 .nav-item {
     text-align: center;
 }
+
+.nav-link{
+    color: #E9ECEF;
+}
+
 
 
 
